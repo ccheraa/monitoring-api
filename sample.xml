@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmx:jmx xmlns:jmx="http://exist-db.org/jmx" version="1">
+    <jmx:Database name="org.exist.management.exist:type=Database">
+        <jmx:ExistHome>/exist</jmx:ExistHome>
+        <jmx:Uptime>186637177</jmx:Uptime>
+        <jmx:Status>OPERATIONAL</jmx:Status>
+        <jmx:ReservedMem>6767122841</jmx:ReservedMem>
+        <jmx:ActiveBrokers>0</jmx:ActiveBrokers>
+        <jmx:MaxBrokers>20</jmx:MaxBrokers>
+        <jmx:AvailableBrokers>6</jmx:AvailableBrokers>
+        <jmx:TotalBrokers>6</jmx:TotalBrokers>
+        <jmx:ActiveBrokersMap/>
+        <jmx:CollectionCacheMem>67108864</jmx:CollectionCacheMem>
+        <jmx:CacheMem>268435456</jmx:CacheMem>
+        <jmx:InstanceId>exist</jmx:InstanceId>
+        <jmx:Name>org.exist.management.exist:type=Database</jmx:Name>
+    </jmx:Database>
+    <jmx:ProcessReport name="org.exist.management.exist:type=ProcessReport">
+        <jmx:ScheduledJobs>
+            <jmx:row>
+                <jmx:action>eXist.internal</jmx:action>
+                <jmx:id>FileLockHeartBeat: /exist/etc/../data/dbx_dir.lck</jmx:id>
+                <jmx:info>10100</jmx:info>
+            </jmx:row>
+            <jmx:row>
+                <jmx:action>eXist.internal</jmx:action>
+                <jmx:id>FileLockHeartBeat: /exist/etc/../data/journal.lck</jmx:id>
+                <jmx:info>10100</jmx:info>
+            </jmx:row>
+            <jmx:row>
+                <jmx:action>eXist.Security</jmx:action>
+                <jmx:id>Sessions.Check</jmx:id>
+                <jmx:info>20000</jmx:info>
+            </jmx:row>
+            <jmx:row>
+                <jmx:action>eXist.System</jmx:action>
+                <jmx:id>Sync</jmx:id>
+                <jmx:info>2500</jmx:info>
+            </jmx:row>
+        </jmx:ScheduledJobs>
+        <jmx:HistoryTimespan>120000</jmx:HistoryTimespan>
+        <jmx:MinTime>100</jmx:MinTime>
+        <jmx:TrackRequestURI>false</jmx:TrackRequestURI>
+        <jmx:RecentQueryHistory/>
+        <jmx:RunningJobs/>
+        <jmx:RunningQueries/>
+        <jmx:InstanceId>exist</jmx:InstanceId>
+        <jmx:Name>org.exist.management.exist:type=ProcessReport</jmx:Name>
+    </jmx:ProcessReport>
+    <jmx:LockTable name="org.exist.management.exist:type=LockTable">
+        <jmx:Attempting/>
+        <jmx:Acquired/>
+        <jmx:InstanceId>exist</jmx:InstanceId>
+        <jmx:Name>org.exist.management.exist:type=LockTable</jmx:Name>
+    </jmx:LockTable>
+    <jmx:MemoryImpl name="java.lang:type=Memory">
+        <jmx:ObjectPendingFinalizationCount>0</jmx:ObjectPendingFinalizationCount>
+        <jmx:HeapMemoryUsage>
+            <jmx:committed>528482304</jmx:committed>
+            <jmx:init>528482304</jmx:init>
+            <jmx:max>32178700288</jmx:max>
+            <jmx:used>147081872</jmx:used>
+        </jmx:HeapMemoryUsage>
+        <jmx:NonHeapMemoryUsage>
+            <jmx:committed>112820224</jmx:committed>
+            <jmx:init>2555904</jmx:init>
+            <jmx:max>-1</jmx:max>
+            <jmx:used>109684536</jmx:used>
+        </jmx:NonHeapMemoryUsage>
+        <jmx:Verbose>false</jmx:Verbose>
+        <jmx:ObjectName>java.lang:type=Memory</jmx:ObjectName>
+    </jmx:MemoryImpl>
+    <jmx:CacheManager name="org.exist.management.exist:type=CacheManager">
+        <jmx:CurrentSize>4161536</jmx:CurrentSize>
+        <jmx:MaxTotal>65536</jmx:MaxTotal>
+        <jmx:MaxSingle>58982</jmx:MaxSingle>
+        <jmx:InstanceId>exist</jmx:InstanceId>
+        <jmx:Name>org.exist.management.exist:type=CacheManager</jmx:Name>
+    </jmx:CacheManager>
+    <jmx:Cache name="org.exist.management.exist:type=CacheManager.Cache,name=dom.dbx,cache-type=DATA">
+        <jmx:Used>255</jmx:Used>
+        <jmx:Hits>164601</jmx:Hits>
+        <jmx:Fails>1653</jmx:Fails>
+        <jmx:CacheName>dom.dbx</jmx:CacheName>
+        <jmx:Type>DATA</jmx:Type>
+        <jmx:Size>256</jmx:Size>
+        <jmx:InstanceId>exist</jmx:InstanceId>
+        <jmx:Name>org.exist.management.exist:type=CacheManager.Cache,name=dom.dbx,cache-type=DATA</jmx:Name>
+    </jmx:Cache>
+    <jmx:Cache name="org.exist.management.exist:type=CacheManager.Cache,name=ngram.dbx,cache-type=DATA">
+        <jmx:Used>0</jmx:Used>
+        <jmx:Hits>0</jmx:Hits>
+        <jmx:Fails>0</jmx:Fails>
+        <jmx:CacheName>ngram.dbx</jmx:CacheName>
+        <jmx:Type>DATA</jmx:Type>
+        <jmx:Size>64</jmx:Size>
+        <jmx:InstanceId>exist</jmx:InstanceId>
+        <jmx:Name>org.exist.management.exist:type=CacheManager.Cache,name=ngram.dbx,cache-type=DATA</jmx:Name>
+    </jmx:Cache>
+    <jmx:Cache name="org.exist.management.exist:type=CacheManager.Cache,name=values.dbx,cache-type=DATA">
+        <jmx:Used>0</jmx:Used>
+        <jmx:Hits>0</jmx:Hits>
+        <jmx:Fails>0</jmx:Fails>
+        <jmx:CacheName>values.dbx</jmx:CacheName>
+        <jmx:Type>DATA</jmx:Type>
+        <jmx:Size>64</jmx:Size>
+        <jmx:InstanceId>exist</jmx:InstanceId>
+        <jmx:Name>org.exist.management.exist:type=CacheManager.Cache,name=values.dbx,cache-type=DATA</jmx:Name>
+    </jmx:Cache>
+    <jmx:Cache name="org.exist.management.exist:type=CacheManager.Cache,name=dom.dbx,cache-type=BTREE">
+        <jmx:Used>83</jmx:Used>
+        <jmx:Hits>3030</jmx:Hits>
+        <jmx:Fails>1402</jmx:Fails>
+        <jmx:CacheName>dom.dbx</jmx:CacheName>
+        <jmx:Type>BTREE</jmx:Type>
+        <jmx:Size>96</jmx:Size>
+        <jmx:InstanceId>exist</jmx:InstanceId>
+        <jmx:Name>org.exist.management.exist:type=CacheManager.Cache,name=dom.dbx,cache-type=BTREE</jmx:Name>
+    </jmx:Cache>
+    <jmx:Cache name="org.exist.management.exist:type=CacheManager.Cache,name=collections.dbx,cache-type=DATA">
+        <jmx:Used>38</jmx:Used>
+        <jmx:Hits>5596</jmx:Hits>
+        <jmx:Fails>38</jmx:Fails>
+        <jmx:CacheName>collections.dbx</jmx:CacheName>
+        <jmx:Type>DATA</jmx:Type>
+        <jmx:Size>64</jmx:Size>
+        <jmx:InstanceId>exist</jmx:InstanceId>
+        <jmx:Name>org.exist.management.exist:type=CacheManager.Cache,name=collections.dbx,cache-type=DATA</jmx:Name>
+    </jmx:Cache>
+    <jmx:Cache name="org.exist.management.exist:type=CacheManager.Cache,name=sort.dbx,cache-type=BTREE">
+        <jmx:Used>0</jmx:Used>
+        <jmx:Hits>0</jmx:Hits>
+        <jmx:Fails>0</jmx:Fails>
+        <jmx:CacheName>sort.dbx</jmx:CacheName>
+        <jmx:Type>BTREE</jmx:Type>
+        <jmx:Size>64</jmx:Size>
+        <jmx:InstanceId>exist</jmx:InstanceId>
+        <jmx:Name>org.exist.management.exist:type=CacheManager.Cache,name=sort.dbx,cache-type=BTREE</jmx:Name>
+    </jmx:Cache>
+    <jmx:Cache name="org.exist.management.exist:type=CacheManager.Cache,name=collections.dbx,cache-type=BTREE">
+        <jmx:Used>16</jmx:Used>
+        <jmx:Hits>2114</jmx:Hits>
+        <jmx:Fails>55</jmx:Fails>
+        <jmx:CacheName>collections.dbx</jmx:CacheName>
+        <jmx:Type>BTREE</jmx:Type>
+        <jmx:Size>64</jmx:Size>
+        <jmx:InstanceId>exist</jmx:InstanceId>
+        <jmx:Name>org.exist.management.exist:type=CacheManager.Cache,name=collections.dbx,cache-type=BTREE</jmx:Name>
+    </jmx:Cache>
+    <jmx:Cache name="org.exist.management.exist:type=CacheManager.Cache,name=values.dbx,cache-type=BTREE">
+        <jmx:Used>0</jmx:Used>
+        <jmx:Hits>0</jmx:Hits>
+        <jmx:Fails>0</jmx:Fails>
+        <jmx:CacheName>values.dbx</jmx:CacheName>
+        <jmx:Type>BTREE</jmx:Type>
+        <jmx:Size>64</jmx:Size>
+        <jmx:InstanceId>exist</jmx:InstanceId>
+        <jmx:Name>org.exist.management.exist:type=CacheManager.Cache,name=values.dbx,cache-type=BTREE</jmx:Name>
+    </jmx:Cache>
+    <jmx:Cache name="org.exist.management.exist:type=CacheManager.Cache,name=ngram.dbx,cache-type=BTREE">
+        <jmx:Used>0</jmx:Used>
+        <jmx:Hits>0</jmx:Hits>
+        <jmx:Fails>0</jmx:Fails>
+        <jmx:CacheName>ngram.dbx</jmx:CacheName>
+        <jmx:Type>BTREE</jmx:Type>
+        <jmx:Size>64</jmx:Size>
+        <jmx:InstanceId>exist</jmx:InstanceId>
+        <jmx:Name>org.exist.management.exist:type=CacheManager.Cache,name=ngram.dbx,cache-type=BTREE</jmx:Name>
+    </jmx:Cache>
+    <jmx:Cache name="org.exist.management.exist:type=CacheManager.Cache,name=structure.dbx,cache-type=BTREE">
+        <jmx:Used>5</jmx:Used>
+        <jmx:Hits>4</jmx:Hits>
+        <jmx:Fails>5</jmx:Fails>
+        <jmx:CacheName>structure.dbx</jmx:CacheName>
+        <jmx:Type>BTREE</jmx:Type>
+        <jmx:Size>64</jmx:Size>
+        <jmx:InstanceId>exist</jmx:InstanceId>
+        <jmx:Name>org.exist.management.exist:type=CacheManager.Cache,name=structure.dbx,cache-type=BTREE</jmx:Name>
+    </jmx:Cache>
+    <jmx:SystemInfo name="org.exist.management:type=SystemInfo">
+        <jmx:OperatingSystem>Linux 5.8.0-44-generic amd64</jmx:OperatingSystem>
+        <jmx:DefaultLocale>en_US</jmx:DefaultLocale>
+        <jmx:ProductVersion>5.2.0</jmx:ProductVersion>
+        <jmx:ProductName>eXist</jmx:ProductName>
+        <jmx:GitCommit>c58d04ec45de50e7738489dee072fcc863dc8b1b</jmx:GitCommit>
+        <jmx:ProductBuild>20200123123609</jmx:ProductBuild>
+        <jmx:DefaultEncoding>UTF8</jmx:DefaultEncoding>
+    </jmx:SystemInfo>
+    <jmx:OperatingSystemImpl name="java.lang:type=OperatingSystem">
+        <jmx:OpenFileDescriptorCount>167</jmx:OpenFileDescriptorCount>
+        <jmx:MaxFileDescriptorCount>1048576</jmx:MaxFileDescriptorCount>
+        <jmx:CommittedVirtualMemorySize>43901222912</jmx:CommittedVirtualMemorySize>
+        <jmx:TotalSwapSpaceSize>2147479552</jmx:TotalSwapSpaceSize>
+        <jmx:FreeSwapSpaceSize>2096623616</jmx:FreeSwapSpaceSize>
+        <jmx:ProcessCpuTime>242650000000</jmx:ProcessCpuTime>
+        <jmx:FreePhysicalMemorySize>569511936</jmx:FreePhysicalMemorySize>
+        <jmx:TotalPhysicalMemorySize>33658204160</jmx:TotalPhysicalMemorySize>
+        <jmx:SystemCpuLoad>0.07547878332707472</jmx:SystemCpuLoad>
+        <jmx:ProcessCpuLoad>3.7537537537537537E-4</jmx:ProcessCpuLoad>
+        <jmx:AvailableProcessors>24</jmx:AvailableProcessors>
+        <jmx:Arch>amd64</jmx:Arch>
+        <jmx:SystemLoadAverage>1.08</jmx:SystemLoadAverage>
+        <jmx:Version>5.8.0-44-generic</jmx:Version>
+        <jmx:Name>Linux</jmx:Name>
+        <jmx:ObjectName>java.lang:type=OperatingSystem</jmx:ObjectName>
+    </jmx:OperatingSystemImpl>
+</jmx:jmx>
